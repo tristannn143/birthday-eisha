@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Baby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Floating Balloons -->
+    <div class="balloon balloon1"></div>
+    <div class="balloon balloon2"></div>
+    <div class="balloon balloon3"></div>
+
+    <!-- Main Card -->
+    <div class="card">
+        <h1>🎂 Happy Birthday Babyyyy! 🎉</h1>
+        <p>A special surprise is waiting for you.</p>
+        <button onclick="openLetter()">💌 Open Surprise</button>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Letter -->
+    <div class="letter" id="letter">
+        <div class="letter-content">
+
+            <button class="close-btn" onclick="closeLetter()">✖</button>
+
+            <h2>💖 Happy Birthday, Baby! 💖</h2>
+
+            <div class="message">
+
+                <p>Happy Birthday, Eisha! 🎂💖</p>
+
+                <p>
+                  To the most amazing person in my life, my kaduo, and my baby. Happy, happy birthday!
+                </p>
+
+                <p>
+                    I just want to take a moment to tell you how incredibly grateful I am
+                     to have you in my life. Life is so much brighter and better with you around. 
+                     Everyday turns into something special just because I get to share it with you,
+                     and I can't thank you enough for all the joy, love and laughter you bring into my world.
+
+                     
+                </p>
+
+                <p>
+                    Sana ngayong araw, maka relax ka naman at ma-enjoy mo nang buong-buo yung special day mo.
+                     You work so hard and give so much of yourself to everything you do, kaya deserve mo talaga ang buong pagmamahal,
+                     pahinga , at ligaya hindi lang ngayong birthday mo kundi sa buong buhay mo.
+                </p>
+
+                <p>
+                    Lagi mong tatandaan na kahit anong mangyari, nandito ako sa tabi mo. 
+                     No matter how cruel or heavy the world gets, I will always be right here on your side.
+                     Kapag napapagod ka na or kailangan mo ng masasandalan, just lean on me enytime. Hindi ako mawawala.
+                </p>
+
+               
+        
+                <p>
+                    And no matter what battles come your way, always remember that there are people standing beside you, ready to support you, encourage you, and remind you of your worth whenever you forget it.
+                </p>
+
+                <p>
+                    Thank you for being you. Thank you for your kindness, your strength, your laughter, and the light you bring into the lives of the people around you.
+                </p>
+
+                <p>
+                    Happy Birthday, Baby. May your heart be filled with joy, your mind with peace, and your year with endless blessings. 
+                    Keep chasing your dreams, keep believing in yourself, and keep moving forward. Better days are coming, and we'll be right here cheering you on every step of the way.
+                </p>
+             
+                <p>
+                    Happy Birthday once again, Baby . 🎉🎂✨
+                </p>
+
+            </div>
+
+            <button class="done-btn" onclick="showCake()">
+                🎂 Done Reading
+            </button>
+
+            <h3>❤️ From BIGBOY STAN ❤️ </h3>
+
+        </div>
+    </div>
+
+    <!-- Cake Popup -->
+    <div class="cake-popup" id="cakePopup">
+
+        <div class="cake-container">
+
+            <h2>🎉 Happy Birthday Baby 🎉</h2>
+
+            <div class="cake-name">Charlene</div>
+
+            <div class="birthday-cake">
+
+                <div class="candles">
+                    <div class="candle"><div class="flame"></div></div>
+                    <div class="candle"><div class="flame"></div></div>
+                    <div class="candle"><div class="flame"></div></div>
+                </div>
+
+                <div class="layer top"></div>
+                <div class="layer middle"></div>
+                <div class="layer bottom"></div>
+
+            </div>
+
+            <p class="wish-text">
+                ✨ May all your dreams come true ✨
+            </p>
+
+            <div class="music-controls">
+    <button onclick="playMusic()">▶ Play Music</button>
+    <button onclick="pauseMusic()">⏸ Pause Music</button>
+</div>
+
+            <button onclick="closeCake()">
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+    <audio id="birthdaySong"  loop>
+    <source src="happy-birthday.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
